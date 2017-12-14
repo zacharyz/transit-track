@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 import moment from 'moment';
 
 class ArrivalsList extends Component {
@@ -15,7 +14,7 @@ class ArrivalsList extends Component {
    }
    render() {
       // 
-      if (this.props.arrivals.length == 0) {
+      if (this.props.arrivals.length === 0) {
          return <div />;
       }
       return(

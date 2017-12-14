@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-// import './App.css';
 import SearchBar from './containers/search_bar';
 import ArrivalsList from './containers/arrivals_list';
 import StopsList from './containers/stops_list';

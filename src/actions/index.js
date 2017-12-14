@@ -25,7 +25,7 @@ export function fetchStopsWithLocation(lat,lng) {
 
 export function fetchStops(address) {
    const encodedAddress = encodeURIComponent(address);
-   const url  = `${ROOT_URL}address=${address}`;
+   const url  = `${ROOT_URL}address=${encodedAddress}`;
    const request = axios.get(url).then((response)=>{
       const lat = response.data.results[0].geometry.location.lat;
       const lng = response.data.results[0].geometry.location.lng;
