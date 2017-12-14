@@ -8,7 +8,7 @@ export const FETCH_STOPS = 'FETCH_STOPS';
 export const FETCH_ARRIVALS = 'FETCH_ARRIVALS';
 
 const ROOT_URL = 'https://maps.googleapis.com/maps/api/geocode/json?';
-const STOPS_URL = `http://developer.trimet.org/ws/V1/stops?appID=${TRIMET_APP_ID}&json=true` //&ll=45.5292256,-122.6623705`
+const STOPS_URL = `https://developer.trimet.org/ws/V1/stops?appID=${TRIMET_APP_ID}&json=true` //&ll=45.5292256,-122.6623705`
 const ARRIVALS_URL = `https://developer.trimet.org/ws/V1/arrivals?&appID=${TRIMET_APP_ID}&json=true` //locIDs=8378
 
 // var geocodeUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}`;
