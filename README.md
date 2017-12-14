@@ -21,7 +21,7 @@ https://developer.trimet.org/ws_docs/arrivals_ws.shtml
 ```
 # Whats left?
 
-Styling
-Error handling and Validation
-More detailed stop information
-Tests
+*Styling
+*Error handling and Validation
+*More detailed stop information
+*Tests
